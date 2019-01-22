@@ -1,0 +1,19 @@
+language: node_js
+
+node_js:
+  - 4.8.7
+
+runtime:
+  nodePool: default_cluster
+
+env:
+  global:
+    - FOO=FUBU
+
+  matrix:
+    - M1=ONE
+
+build:
+  ci:
+    - echo true1
+    - printenv
