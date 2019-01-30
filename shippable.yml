@@ -1,7 +1,6 @@
 language: scala
 
-scala:
-  - 2.12
+scala: 2.12
 
 runtime:
   nodePool: default_cluster
