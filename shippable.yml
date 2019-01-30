@@ -1,7 +1,6 @@
 language: clojure
 
-lein:
-  - 1.9
+lein: 1.9
 
 runtime:
   nodePool: default_cluster
