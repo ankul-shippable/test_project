@@ -14,5 +14,6 @@ env:
 
 build:
   ci:
+    - scala -version
     - echo true1
     - printenv
