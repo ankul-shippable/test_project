@@ -1,7 +1,7 @@
-language: node_js
+language: python
 
-node_js:
-  - 4.8.7
+python:
+  - 3.4
 
 runtime:
   nodePool: default_cluster
