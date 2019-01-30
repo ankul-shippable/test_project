@@ -1,7 +1,7 @@
-language: node_js
+language: java
 
-node_js:
-  - 4.8.7
+jdk:
+  - oraclejdk8
 
 runtime:
   nodePool: default_cluster
