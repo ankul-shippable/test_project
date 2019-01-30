@@ -1,7 +1,7 @@
-language: node_js
+language: scala
 
-node_js:
-  - 4.8.7
+scala:
+  - 2.12
 
 runtime:
   nodePool: default_cluster
