@@ -1,7 +1,7 @@
-language: node_js
+language: clojure
 
-node_js:
-  - 4.8.7
+lein:
+  - 1.9
 
 runtime:
   nodePool: default_cluster
